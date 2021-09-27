@@ -1,0 +1,15 @@
+{
+  "name": "ipchangenotify",
+  "version": "1.0.0",
+  "description": "Notify user when the public ip has changed via email",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ali Adam",
+  "license": "ISC",
+  "dependencies": {
+    "nodemailer": "^6.6.3",
+    "public-ip": "^4.0.4"
+  }
+}
